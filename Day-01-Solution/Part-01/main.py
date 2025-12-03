@@ -11,7 +11,7 @@ def spin_dial(current_number:int, turn_direction: str, direction_count: int):
                 current_number -= 100
         else:
             print('Uh oh.. Santa is not happy...')
-        return current_number
+    return current_number
 
 if __name__ == "__main__":
     with open('combinations.txt', 'r') as file:
